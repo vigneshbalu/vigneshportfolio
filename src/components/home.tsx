@@ -1,8 +1,8 @@
+
 const handleDownload =()=>{
     const link = document.createElement('a');
-    console.log("URL check", process.env.PUBLIC_URL);
-    link.href = '/assets/Vignesh_B_AUTOMATION_Profile.pdf'
-    link.download = 'Vignesh_B_AUTOMATION_Profile.pdf'
+    link.href = "Vignesh_B_AUTOMATION_Profile.pdf";
+    link.download = 'vignesh_cv.pdf';
     link.click();
 };
 
