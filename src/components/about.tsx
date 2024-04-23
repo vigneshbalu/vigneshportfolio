@@ -7,12 +7,12 @@ import NodeJS from "../assets/social_icons/NodeJSLogo.svg";
 
 const About = () => {
   return (
-    <div className="text-[#f9fdff] px-[10rem] font-bold">
+    <div className="text-[#f9fdff] px-10 md:px-[10rem] font-bold">
       About
-      <p className="text-6xl text-[#ff4b57]">Skill-Set</p>
+      <p className="text-4xl md:text-6xl text-[#ff4b57]">Skill-Set</p>
       <div className="w-[115px] h-2 rounded mt-2 bg-[#ff4b57]"></div>
-      <div className="flex flex-row justify-between">
-        <div className="w-[300px] h-[250px] rounded mt-2 bg-[#2b2e41] p-8 font-normal">
+      <div className="md:flex flex-row justify-between gap-8">
+        <div className="w-full h-[250px] rounded bg-[#2b2e41] p-8 font-normal mt-2">
           <img
             src={Guthub}
             alt="GitHub"
@@ -26,7 +26,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="w-[300px] h-[250px] rounded mt-2 bg-[#2b2e41] p-8 font-normal">
+        <div className=" w-full h-[250px] rounded bg-[#2b2e41] p-8 font-normal mt-6 md:mt-2">
           <img src={Azure} alt="Azure" width={40} className="text-[#c6cad6]" />
           <div className="text-l mt-2">Azure DevOps</div>
           <p className="text-sm mt-2 text-left">
@@ -35,7 +35,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="w-[300px] h-[250px] rounded mt-2 bg-[#2b2e41] p-8 font-normal">
+        <div className=" w-full h-[250px] rounded bg-[#2b2e41] p-8 font-normal  mt-6 md:mt-2">
           <img
             src={Functional}
             alt="Functional"
@@ -50,8 +50,8 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-row justify-between mt-8">
-        <div className="w-[300px] h-[250px] rounded mt-2 bg-[#2b2e41] p-8 font-normal">
+      <div className="md:flex flex-row justify-between mt-8 gap-8">
+        <div className="w-full h-[250px] rounded mt-2 bg-[#2b2e41] p-8 font-normal">
           <img
             src={Playwright}
             alt="Playwright"
@@ -66,7 +66,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="w-[300px] h-[250px] rounded mt-2 bg-[#2b2e41] p-8 font-normal">
+        <div className="w-full h-[250px] rounded bg-[#2b2e41] p-8 font-normal  mt-6 md:mt-2">
           <img
             src={Jmeter}
             alt="Jmeter"
@@ -81,7 +81,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="w-[300px] h-[250px] rounded mt-2 bg-[#2b2e41] p-8 font-normal">
+        <div className="w-full h-[250px] rounded bg-[#2b2e41] p-8 font-normal  mt-6 md:mt-2">
           <img
             src={NodeJS}
             alt="NodeJS"
