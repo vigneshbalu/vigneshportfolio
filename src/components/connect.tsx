@@ -19,6 +19,7 @@ const Connect = () => {
           <a
             href="https://in.linkedin.com/"
             target="_blank"
+            rel="noreferrer"
             className="text-[#f9fdff] mt-4 justify-center"
           >
             My LinkedIn Profile
@@ -30,6 +31,7 @@ const Connect = () => {
           <a
             href="https://github.com/vigneshbalu"
             target="_blank"
+            rel="noreferrer"
             className="text-[#f9fdff] mt-4 justify-center"
           >
             MyGithub Repo
