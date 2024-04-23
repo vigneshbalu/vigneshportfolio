@@ -1,0 +1,6 @@
+Colors used:
+
+Primary color: #ff4b57
+Secondary color: #23253a
+Text Color : #f9fdff
+Header: #212437
