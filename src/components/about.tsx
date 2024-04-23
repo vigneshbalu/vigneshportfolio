@@ -7,7 +7,7 @@ import NodeJS from "../assets/social_icons/NodeJSLogo.svg";
 
 const About = () => {
   return (
-    <div className="text-[#f9fdff] px-10 md:px-[10rem] font-bold">
+    <div id="about" className="text-[#f9fdff] px-10 md:px-[10rem] font-bold">
       About
       <p className="text-4xl md:text-6xl text-[#ff4b57]">Skill-Set</p>
       <div className="w-[115px] h-2 rounded mt-2 bg-[#ff4b57]"></div>

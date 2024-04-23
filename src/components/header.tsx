@@ -1,11 +1,11 @@
 function Header() {
   return (
-    <div className="bg-[#212437] flex flex-row text-[#f9fdff] p-8 justify-between">
+    <div id="home" className="bg-[#212437] flex flex-row text-[#f9fdff] p-8 justify-between">
       <div className="hidden md:block  w-[600px] text-center"> Vignesh Balasubramaniam </div>
       <div className=" flex flex-row justify-center gap-10 w-full">
-        <button className="hover:text-[#ff4b57]">Home</button>
-        <button className="hover:text-[#ff4b57]">About</button>
-        <button className="hover:text-[#ff4b57]">Contact Us</button>
+        <a href="#home" className="hover:text-[#ff4b57]">Home</a>
+        <a href="#about" className="hover:text-[#ff4b57]">About</a>
+        <a href="#connect" className="hover:text-[#ff4b57]">Contact Us</a>
       </div>
     </div>
   )

@@ -1,8 +1,10 @@
 import Email from "../assets/social_icons/EMAIL.svg";
+import LinkedIn from "../assets/social_icons/Linked-Logo.svg"
+import GitHub from "../assets/social_icons/icons8-github.svg"
 
 const Connect = () => {
   return (
-    <div className="w-full">
+    <div id="connect" className="w-full">
       <div className="text-[#ff4b57] px-10 md:px-[10rem] font-bold text-xm mt-10">
         SOCIAL MEDIA
       </div>
@@ -15,7 +17,7 @@ const Connect = () => {
         </div>
 
         <div className="bg-[#2b2e41] font-normal flex flex-col justify-center items-center p-5 w-full mt-4 md:mt-0">
-          <img src={Email} alt="Email" width={40} />
+          <img src={LinkedIn} alt="LinkedIn" width={40} />
           <a
             href="https://in.linkedin.com/"
             target="_blank"
@@ -27,7 +29,7 @@ const Connect = () => {
         </div>
 
         <div className="bg-[#2b2e41] font-normal flex flex-col justify-center items-center p-5 w-full mt-4 md:mt-0">
-          <img src={Email} alt="Email" width={40} />
+          <img src={GitHub} alt="GitHub" width={40} />
           <a
             href="https://github.com/vigneshbalu"
             target="_blank"
